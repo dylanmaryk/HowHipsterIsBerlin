@@ -6,7 +6,7 @@ import requests_cache
 requests_cache.install_cache("hipster_cache")
 
 # Get GeoJSON coordinate-based representation of polygons representating postcode areas
-polygons_string = open("postcodes.geojson", "r").read()
+polygons_string = open("polygons-original.geojson", "r").read()
 polygons_json = json.loads(polygons_string)
 
 # Find center coordinate of each polygon
@@ -35,13 +35,15 @@ for feature in polygons_json["features"]:
     yCenter = y1 + ((y2 - y1) / 2)
 
     # Find postcode at each center coordinate
-    url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + str(yCenter) + "," + str(xCenter) + "&key=AIzaSyCLus9zsDqpQ50kW_A5oafRhUXXI2kxuw8"
+    url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + str(yCenter) + "," + str(xCenter) + "&key=AIzaSyCAxzhF6MMwt8a9m8HJRoz8_HsfTpDqwRE"
     response = requests.get(url)
     address_components = response.json()["results"][0]["address_components"]
 
     for address_component in address_components:
         if "postal_code" in address_component["types"]:
-            print address_component["long_name"] # Add to feature["properties"]
+            # Add postcode to properties of feature
+            feature["properties"]["postcode"] = address_component["long_name"]
 
-# Convert JSON to string
-# Save string to file
+# Save modified GeoJSON to file
+polygons_postcodes_file = open("polygons-postcodes.geojson", "w")
+polygons_postcodes_file.write(json.dumps(polygons_json))
