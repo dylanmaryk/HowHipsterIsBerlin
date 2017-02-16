@@ -13,6 +13,8 @@ Result: Dictionary of postcodes to number of venues
 README notes:
 - Original GeoJSON converted from TopoJSON using tool
 - Using "requests" for Google Maps API requests and caching Google Maps API responses
+- Using "requests" for Foursquare API requests and caching Foursquare API responses
 
 TODO:
 - Obfuscate Google Maps API key
+- Obfuscate Foursquare API keys

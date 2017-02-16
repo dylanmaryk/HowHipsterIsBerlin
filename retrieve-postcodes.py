@@ -3,7 +3,7 @@ import requests
 import requests_cache
 
 # Cache responses from reverse geocoding requests
-requests_cache.install_cache("hipster_cache")
+requests_cache.install_cache("postcode_cache")
 
 # Get GeoJSON coordinate-based representation of polygons representating postcode areas
 polygons_string = open("polygons-original.geojson", "r").read()
@@ -44,6 +44,11 @@ for feature in polygons_json["features"]:
             # Add postcode to properties of feature
             feature["properties"]["postcode"] = address_component["long_name"]
 
+    # Print debug info when no postcode available
+    if "postcode" not in feature["properties"]:
+        for address_component in address_components:
+            print address_component["types"]
+
 # Save modified GeoJSON to file
 polygons_postcodes_file = open("polygons-postcodes.geojson", "w")
-polygons_postcodes_file.write(json.dumps(polygons_json))
+polygons_postcodes_file.write(json.dumps(polygons_json, sort_keys=True, indent=4))
