@@ -43,5 +43,13 @@ for feature in polygons_json["features"]:
         properties["venueCount"] = venuesPerPostcode[properties["postcode"]]
 
 # Save modified GeoJSON to file
-polygons_postcodes_file = open("polygons-postcodes.geojson", "w")
-polygons_postcodes_file.write(json.dumps(polygons_json, sort_keys=True, indent=4))
+polygons_string = json.dumps(polygons_json, sort_keys=True, indent=4)
+
+polygons_postcodes_geojson_file = open("polygons-postcodes.geojson", "w")
+polygons_postcodes_geojson_file.write(polygons_string)
+
+# Save GeoJSON to JavaScript file
+polygons_js_string = "var polygonsPostcodesGeoJSON = " + polygons_string + ";"
+
+polygons_postcodes_js_file = open("polygons-postcodes-geojson.js", "w")
+polygons_postcodes_js_file.write(polygons_js_string)

@@ -1,5 +1,5 @@
 - Pull postcode polygons (https://raw.githubusercontent.com/berlinermorgenpost/Berlin-Geodaten/master/berlin_postleitzahlen.topojson)
-- Convert TopoJSON polygons to coordinate-based GeoJSON polygons (http://jeffpaine.github.io/geojson-topojson/)
+- Convert TopoJSON polygons to coordinate-based GeoJSON polygons (http://jeffpaine.github.io/geojson-topojson)
 - Find center coordinates of each polygon (http://stackoverflow.com/a/3081078)
 - Reverse geocode each coordinate to get postcode represented by each polygon (Google Maps Geocoding API)
 
@@ -12,9 +12,11 @@ Result: Dictionary of postcodes to number of venues
 
 README notes:
 - Original GeoJSON converted from TopoJSON using tool
+- Leaflet code from http://leafletjs.com/examples/choropleth
 - Using "requests" for Google Maps API requests and caching Google Maps API responses
 - Using "requests" for Foursquare API requests and caching Foursquare API responses
 
 TODO:
 - Obfuscate Google Maps API key
 - Obfuscate Foursquare API keys
+- Obfuscate Mapbox API access token
