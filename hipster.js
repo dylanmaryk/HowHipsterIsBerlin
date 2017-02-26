@@ -38,6 +38,8 @@ function onEachFeature(feature, layer) {
         mouseout: resetHighlight,
         click: zoomToFeature
     });
+    layer.bindPopup("Postcode: " + feature.properties.postcode + ", " +
+                    "Number of cafes: " + feature.properties.venueCount);
 }
 
 function highlightFeature(e) {

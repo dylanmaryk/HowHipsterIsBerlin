@@ -321,8 +321,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.53168877404431, 
+                    "lng": 13.38330467829827
+                }, 
                 "postcode": "10115", 
-                "venueCount": 1
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -899,8 +903,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.5182154419111, 
+                    "lng": 13.388255778550295
+                }, 
                 "postcode": "10117", 
-                "venueCount": 3
+                "venueCount": 5
             }, 
             "type": "Feature"
         }, 
@@ -1029,8 +1037,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.53040880749166, 
+                    "lng": 13.404388955561997
+                }, 
                 "postcode": "10119", 
-                "venueCount": 6
+                "venueCount": 8
             }, 
             "type": "Feature"
         }, 
@@ -1223,8 +1235,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.52032065005692, 
+                    "lng": 13.41176508450889
+                }, 
                 "postcode": "10178", 
-                "venueCount": 4
+                "venueCount": 5
             }, 
             "type": "Feature"
         }, 
@@ -1573,6 +1589,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.513449250668984, 
+                    "lng": 13.416278332357676
+                }, 
                 "postcode": "10179", 
                 "venueCount": 0
             }, 
@@ -1799,6 +1819,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.51269137573649, 
+                    "lng": 13.438373038244265
+                }, 
                 "postcode": "10243", 
                 "venueCount": 0
             }, 
@@ -2105,8 +2129,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.50088536845476, 
+                    "lng": 13.46791123498594
+                }, 
                 "postcode": "10245", 
-                "venueCount": 2
+                "venueCount": 9
             }, 
             "type": "Feature"
         }, 
@@ -2247,8 +2275,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.51614391709562, 
+                    "lng": 13.46461050148459
+                }, 
                 "postcode": "10247", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -2389,6 +2421,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.52365529975989, 
+                    "lng": 13.439551871637605
+                }, 
                 "postcode": "10249", 
                 "venueCount": 0
             }, 
@@ -2543,8 +2579,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.50763887618653, 
+                    "lng": 13.516984385102951
+                }, 
                 "postcode": "10315", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -2841,6 +2881,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.498729635313445, 
+                    "lng": 13.489062874157856
+                }, 
                 "postcode": "10317", 
                 "venueCount": 0
             }, 
@@ -2983,8 +3027,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.48397633662758, 
+                    "lng": 13.527425480872527
+                }, 
                 "postcode": "10318", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -3089,8 +3137,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.50071695180309, 
+                    "lng": 13.51853370899134
+                }, 
                 "postcode": "10319", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -3303,6 +3355,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.51963014178509, 
+                    "lng": 13.496203236426084
+                }, 
                 "postcode": "10365", 
                 "venueCount": 0
             }, 
@@ -3401,6 +3457,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.52350372477339, 
+                    "lng": 13.478150245030943
+                }, 
                 "postcode": "10369", 
                 "venueCount": 0
             }, 
@@ -3511,6 +3571,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.53141930740165, 
+                    "lng": 13.467978596894131
+                }, 
                 "postcode": "10369", 
                 "venueCount": 0
             }, 
@@ -3601,8 +3665,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.53525920705962, 
+                    "lng": 13.42358709939638
+                }, 
                 "postcode": "10405", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -3707,6 +3775,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.534012923837295, 
+                    "lng": 13.445277633833824
+                }, 
                 "postcode": "10407", 
                 "venueCount": 0
             }, 
@@ -3773,6 +3845,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.54396634795071, 
+                    "lng": 13.441303281250566
+                }, 
                 "postcode": "10409", 
                 "venueCount": 0
             }, 
@@ -3883,8 +3959,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.53714547355827, 
+                    "lng": 13.411899808325273
+                }, 
                 "postcode": "10435", 
-                "venueCount": 2
+                "venueCount": 3
             }, 
             "type": "Feature"
         }, 
@@ -4017,8 +4097,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.5453305228292, 
+                    "lng": 13.412741832177659
+                }, 
                 "postcode": "10437", 
-                "venueCount": 2
+                "venueCount": 3
             }, 
             "type": "Feature"
         }, 
@@ -4195,8 +4279,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.5519156139093, 
+                    "lng": 13.41324704648909
+                }, 
                 "postcode": "10439", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -4277,8 +4365,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.531065632433155, 
+                    "lng": 13.33554508539098
+                }, 
                 "postcode": "10551", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -4403,6 +4495,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.52909515760867, 
+                    "lng": 13.320287613185759
+                }, 
                 "postcode": "10553", 
                 "venueCount": 0
             }, 
@@ -4525,6 +4621,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.52060695836475, 
+                    "lng": 13.335208275850025
+                }, 
                 "postcode": "10555", 
                 "venueCount": 0
             }, 
@@ -4935,6 +5035,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.52564261624954, 
+                    "lng": 13.356494638838324
+                }, 
                 "postcode": "10557", 
                 "venueCount": 0
             }, 
@@ -5033,6 +5137,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.53071195746466, 
+                    "lng": 13.351274090953535
+                }, 
                 "postcode": "10559", 
                 "venueCount": 0
             }, 
@@ -5127,6 +5235,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.51543656715863, 
+                    "lng": 13.308229831619602
+                }, 
                 "postcode": "10585", 
                 "venueCount": 0
             }, 
@@ -5333,8 +5445,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.51845122522344, 
+                    "lng": 13.31755945590403
+                }, 
                 "postcode": "10587", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -5467,6 +5583,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.52789939938185, 
+                    "lng": 13.304625969531394
+                }, 
                 "postcode": "10589", 
                 "venueCount": 0
             }, 
@@ -5569,8 +5689,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.5076557178517, 
+                    "lng": 13.327596380224463
+                }, 
                 "postcode": "10623", 
-                "venueCount": 1
+                "venueCount": 4
             }, 
             "type": "Feature"
         }, 
@@ -5659,6 +5783,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.50868305942686, 
+                    "lng": 13.315067065300969
+                }, 
                 "postcode": "10625", 
                 "venueCount": 0
             }, 
@@ -5729,8 +5857,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.5079588678247, 
+                    "lng": 13.301796769387378
+                }, 
                 "postcode": "10627", 
-                "venueCount": 0
+                "venueCount": 4
             }, 
             "type": "Feature"
         }, 
@@ -5819,8 +5951,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.50231690999391, 
+                    "lng": 13.307387807767217
+                }, 
                 "postcode": "10629", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -5893,8 +6029,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.496119177212634, 
+                    "lng": 13.313248293779818
+                }, 
                 "postcode": "10707", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -5995,8 +6135,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.49404765239715, 
+                    "lng": 13.30422179808225
+                }, 
                 "postcode": "10709", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -6125,6 +6269,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.49721388544846, 
+                    "lng": 13.291759845066945
+                }, 
                 "postcode": "10711", 
                 "venueCount": 0
             }, 
@@ -6247,6 +6395,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.485121569858904, 
+                    "lng": 13.31021700791123
+                }, 
                 "postcode": "10713", 
                 "venueCount": 0
             }, 
@@ -6325,6 +6477,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.48308372837375, 
+                    "lng": 13.328674170755516
+                }, 
                 "postcode": "10715", 
                 "venueCount": 0
             }, 
@@ -6431,6 +6587,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.49150456095701, 
+                    "lng": 13.328000551673608
+                }, 
                 "postcode": "10717", 
                 "venueCount": 0
             }, 
@@ -6513,8 +6673,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.49815701869778, 
+                    "lng": 13.324632456264066
+                }, 
                 "postcode": "10719", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -6659,8 +6823,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.49832543534944, 
+                    "lng": 13.34265176670511
+                }, 
                 "postcode": "10777", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -6761,6 +6929,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.49239716921083, 
+                    "lng": 13.33958679988243
+                }, 
                 "postcode": "10779", 
                 "venueCount": 0
             }, 
@@ -6839,6 +7011,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.493306619129825, 
+                    "lng": 13.353126543428782
+                }, 
                 "postcode": "10781", 
                 "venueCount": 0
             }, 
@@ -6953,8 +7129,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.49679284381929, 
+                    "lng": 13.361849910539494
+                }, 
                 "postcode": "10783", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -7199,6 +7379,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.50753782619553, 
+                    "lng": 13.363028743932833
+                }, 
                 "postcode": "10785", 
                 "venueCount": 1
             }, 
@@ -7317,8 +7501,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.50723467622254, 
+                    "lng": 13.34244968098054
+                }, 
                 "postcode": "10787", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -7391,6 +7579,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.50297373493541, 
+                    "lng": 13.338677414121852
+                }, 
                 "postcode": "10789", 
                 "venueCount": 0
             }, 
@@ -7509,8 +7701,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.486788894710386, 
+                    "lng": 13.355753657848226
+                }, 
                 "postcode": "10823", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -7615,6 +7811,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.48399317829274, 
+                    "lng": 13.342382319072348
+                }, 
                 "postcode": "10825", 
                 "venueCount": 0
             }, 
@@ -7717,6 +7917,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.48375739498041, 
+                    "lng": 13.355416848307271
+                }, 
                 "postcode": "10827", 
                 "venueCount": 0
             }, 
@@ -7915,6 +8119,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.48163534516943, 
+                    "lng": 13.356326234067847
+                }, 
                 "postcode": "10829", 
                 "venueCount": 0
             }, 
@@ -8005,8 +8213,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.49391291907582, 
+                    "lng": 13.397282274247864
+                }, 
                 "postcode": "10961", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -8179,8 +8391,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.4965907438373, 
+                    "lng": 13.380037625751015
+                }, 
                 "postcode": "10963", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -8301,6 +8517,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.4844647449174, 
+                    "lng": 13.405197298460287
+                }, 
                 "postcode": "10965", 
                 "venueCount": 0
             }, 
@@ -8379,8 +8599,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.49204349424234, 
+                    "lng": 13.415604713275767
+                }, 
                 "postcode": "10967", 
-                "venueCount": 1
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -8733,6 +8957,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.50287268494441, 
+                    "lng": 13.40223337449989
+                }, 
                 "postcode": "10969", 
                 "venueCount": 0
             }, 
@@ -9115,8 +9343,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.501980076690586, 
+                    "lng": 13.436688990539494
+                }, 
                 "postcode": "10997", 
-                "venueCount": 0
+                "venueCount": 4
             }, 
             "type": "Feature"
         }, 
@@ -9401,8 +9633,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.49810649370228, 
+                    "lng": 13.428773966327073
+                }, 
                 "postcode": "10999", 
-                "venueCount": 3
+                "venueCount": 4
             }, 
             "type": "Feature"
         }, 
@@ -9551,6 +9787,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.4812479868706, 
+                    "lng": 13.437025800080448
+                }, 
                 "postcode": "12043", 
                 "venueCount": 1
             }, 
@@ -9629,8 +9869,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.486300486420554, 
+                    "lng": 13.43877720969341
+                }, 
                 "postcode": "12045", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -9675,8 +9919,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.49136982763568, 
+                    "lng": 13.42813402819926
+                }, 
                 "postcode": "12047", 
-                "venueCount": 1
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -9749,8 +9997,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.47998486198311, 
+                    "lng": 13.420892623068747
+                }, 
                 "postcode": "12049", 
-                "venueCount": 1
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -9859,8 +10111,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.467926229723886, 
+                    "lng": 13.429851756858127
+                }, 
                 "postcode": "12051", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -9945,8 +10201,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.479866970326945, 
+                    "lng": 13.432647276048044
+                }, 
                 "postcode": "12053", 
-                "venueCount": 1
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -10055,6 +10315,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.4741576458355, 
+                    "lng": 13.44881413401384
+                }, 
                 "postcode": "12055", 
                 "venueCount": 0
             }, 
@@ -10553,6 +10817,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.472877679282846, 
+                    "lng": 13.460467744130852
+                }, 
                 "postcode": "12057", 
                 "venueCount": 0
             }, 
@@ -10847,6 +11115,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.48222480345026, 
+                    "lng": 13.449521434049846
+                }, 
                 "postcode": "12059", 
                 "venueCount": 0
             }, 
@@ -11013,6 +11285,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.46149271363028, 
+                    "lng": 13.405635150863528
+                }, 
                 "postcode": "12099", 
                 "venueCount": 0
             }, 
@@ -11203,6 +11479,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.475774445691485, 
+                    "lng": 13.391287064418883
+                }, 
                 "postcode": "12101", 
                 "venueCount": 0
             }, 
@@ -11349,8 +11629,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.46334529679859, 
+                    "lng": 13.371280577686209
+                }, 
                 "postcode": "12103", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -11487,6 +11771,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.448373056465556, 
+                    "lng": 13.372189963446784
+                }, 
                 "postcode": "12105", 
                 "venueCount": 0
             }, 
@@ -11705,8 +11993,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.4321040079147, 
+                    "lng": 13.386773816570097
+                }, 
                 "postcode": "12107", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -11819,6 +12111,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.44660468162307, 
+                    "lng": 13.400818774427883
+                }, 
                 "postcode": "12109", 
                 "venueCount": 0
             }, 
@@ -12005,6 +12301,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.46534945495341, 
+                    "lng": 13.345413604940934
+                }, 
                 "postcode": "12157", 
                 "venueCount": 0
             }, 
@@ -12119,6 +12419,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.47323135425134, 
+                    "lng": 13.338003795039945
+                }, 
                 "postcode": "12159", 
                 "venueCount": 0
             }, 
@@ -12229,8 +12533,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.47058721282019, 
+                    "lng": 13.328168956444085
+                }, 
                 "postcode": "12161", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -12379,6 +12687,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.461863230263944, 
+                    "lng": 13.318030989261366
+                }, 
                 "postcode": "12163", 
                 "venueCount": 0
             }, 
@@ -12505,6 +12817,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.455463397500665, 
+                    "lng": 13.314460808127253
+                }, 
                 "postcode": "12165", 
                 "venueCount": 0
             }, 
@@ -12623,8 +12939,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.45000669798671, 
+                    "lng": 13.336622875922032
+                }, 
                 "postcode": "12167", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -12761,6 +13081,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.453930805970515, 
+                    "lng": 13.343190661970636
+                }, 
                 "postcode": "12169", 
                 "venueCount": 0
             }, 
@@ -12959,6 +13283,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.44507209009292, 
+                    "lng": 13.30964443169161
+                }, 
                 "postcode": "12203", 
                 "venueCount": 0
             }, 
@@ -13141,8 +13469,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.43244084121803, 
+                    "lng": 13.296407816732113
+                }, 
                 "postcode": "12205", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -13567,8 +13899,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.42147691719463, 
+                    "lng": 13.312675717560197
+                }, 
                 "postcode": "12207", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -13761,6 +14097,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.41852962579049, 
+                    "lng": 13.329718280332473
+                }, 
                 "postcode": "12209", 
                 "venueCount": 0
             }, 
@@ -13939,6 +14279,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.43943013226214, 
+                    "lng": 13.347434462186659
+                }, 
                 "postcode": "12247", 
                 "venueCount": 0
             }, 
@@ -14109,6 +14453,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.425636808490765, 
+                    "lng": 13.351812986219063
+                }, 
                 "postcode": "12249", 
                 "venueCount": 0
             }, 
@@ -14523,6 +14871,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.411136134782396, 
+                    "lng": 13.37508652549899
+                }, 
                 "postcode": "12277", 
                 "venueCount": 0
             }, 
@@ -14689,8 +15041,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.41096771813072, 
+                    "lng": 13.353530714877929
+                }, 
                 "postcode": "12279", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -14843,8 +15199,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.40514050198311, 
+                    "lng": 13.403008036444085
+                }, 
                 "postcode": "12305", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -15233,6 +15593,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.38770937853576, 
+                    "lng": 13.394890926507092
+                }, 
                 "postcode": "12307", 
                 "venueCount": 0
             }, 
@@ -15835,8 +16199,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.393755536330545, 
+                    "lng": 13.4175582086133
+                }, 
                 "postcode": "12309", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -15957,6 +16325,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.451842439489866, 
+                    "lng": 13.432209423644805
+                }, 
                 "postcode": "12347", 
                 "venueCount": 0
             }, 
@@ -16159,8 +16531,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.42757359998491, 
+                    "lng": 13.419511703950835
+                }, 
                 "postcode": "12349", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -16361,6 +16737,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.43452920769869, 
+                    "lng": 13.456863882042644
+                }, 
                 "postcode": "12351", 
                 "venueCount": 0
             }, 
@@ -16651,8 +17031,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.423666333666276, 
+                    "lng": 13.461713939432382
+                }, 
                 "postcode": "12353", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -17525,6 +17909,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.41071509315323, 
+                    "lng": 13.496843174553895
+                }, 
                 "postcode": "12355", 
                 "venueCount": 0
             }, 
@@ -17935,8 +18323,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.429678808130724, 
+                    "lng": 13.495495936390078
+                }, 
                 "postcode": "12357", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -18345,6 +18737,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.4514719228562, 
+                    "lng": 13.457065967767218
+                }, 
                 "postcode": "12359", 
                 "venueCount": 0
             }, 
@@ -19007,6 +19403,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.485711028139725, 
+                    "lng": 13.466496634913932
+                }, 
                 "postcode": "12435", 
                 "venueCount": 0
             }, 
@@ -19569,6 +19969,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.46427158838275, 
+                    "lng": 13.476062025877027
+                }, 
                 "postcode": "12057", 
                 "venueCount": 0
             }, 
@@ -19807,8 +20211,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.45667599739265, 
+                    "lng": 13.526347690341474
+                }, 
                 "postcode": "12459", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -20113,8 +20521,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.468684104656376, 
+                    "lng": 13.533285966885128
+                }, 
                 "postcode": "12459", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -20447,6 +20859,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.44416264017393, 
+                    "lng": 13.510719727641204
+                }, 
                 "postcode": "12487", 
                 "venueCount": 0
             }, 
@@ -20597,8 +21013,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.439244873945306, 
+                    "lng": 13.542548229261367
+                }, 
                 "postcode": "12489", 
-                "venueCount": 0
+                "venueCount": 5
             }, 
             "type": "Feature"
         }, 
@@ -21079,6 +21499,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.41260135965187, 
+                    "lng": 13.542851357848225
+                }, 
                 "postcode": "12524", 
                 "venueCount": 0
             }, 
@@ -21321,6 +21745,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.40195742726664, 
+                    "lng": 13.5650471065971
+                }, 
                 "postcode": "12526", 
                 "venueCount": 0
             }, 
@@ -23607,8 +24035,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.38378527055197, 
+                    "lng": 13.647632806039045
+                }, 
                 "postcode": "12527", 
-                "venueCount": 0
+                "venueCount": 3
             }, 
             "type": "Feature"
         }, 
@@ -23833,8 +24265,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.462587421866104, 
+                    "lng": 13.574376730881529
+                }, 
                 "postcode": "12555", 
-                "venueCount": 0
+                "venueCount": 9
             }, 
             "type": "Feature"
         }, 
@@ -24051,8 +24487,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.43407448273919, 
+                    "lng": 13.587680707749215
+                }, 
                 "postcode": "12557", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -24429,8 +24869,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.41512760942686, 
+                    "lng": 13.654335315904031
+                }, 
                 "postcode": "12559", 
-                "venueCount": 0
+                "venueCount": 3
             }, 
             "type": "Feature"
         }, 
@@ -24807,8 +25251,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.459219088832796, 
+                    "lng": 13.632813186237065
+                }, 
                 "postcode": "12587", 
-                "venueCount": 0
+                "venueCount": 9
             }, 
             "type": "Feature"
         }, 
@@ -25537,8 +25985,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.444617365133425, 
+                    "lng": 13.711660299774419
+                }, 
                 "postcode": "12589", 
-                "venueCount": 0
+                "venueCount": 3
             }, 
             "type": "Feature"
         }, 
@@ -25667,6 +26119,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.52434580803172, 
+                    "lng": 13.589802607857226
+                }, 
                 "postcode": "12619", 
                 "venueCount": 0
             }, 
@@ -25981,6 +26437,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.50221586000291, 
+                    "lng": 13.593238065174958
+                }, 
                 "postcode": "12621", 
                 "venueCount": 0
             }, 
@@ -26411,8 +26871,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.50122220175809, 
+                    "lng": 13.621967919018342
+                }, 
                 "postcode": "12623", 
-                "venueCount": 0
+                "venueCount": 3
             }, 
             "type": "Feature"
         }, 
@@ -26673,8 +27137,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.53766756517843, 
+                    "lng": 13.615063323428783
+                }, 
                 "postcode": "12627", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -26795,6 +27263,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.54170956481839, 
+                    "lng": 13.590880398388279
+                }, 
                 "postcode": "12629", 
                 "venueCount": 0
             }, 
@@ -26957,8 +27429,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.5481936059075, 
+                    "lng": 13.563127292213661
+                }, 
                 "postcode": "12679", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -27194,7 +27670,12 @@ var polygonsPostcodesGeoJSON = {
                 ], 
                 "type": "Polygon"
             }, 
-            "properties": {}, 
+            "properties": {
+                "centerCoordinates": {
+                    "lat": 52.53879595674459, 
+                    "lng": 13.538169705228963
+                }
+            }, 
             "type": "Feature"
         }, 
         {
@@ -27522,6 +28003,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.50455685146106, 
+                    "lng": 13.56248735408585
+                }, 
                 "postcode": "12683", 
                 "venueCount": 0
             }, 
@@ -27660,8 +28145,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.54174324814873, 
+                    "lng": 13.561780054049844
+                }, 
                 "postcode": "12685", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -27758,8 +28247,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.555603938580774, 
+                    "lng": 13.565518639954437
+                }, 
                 "postcode": "12687", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -27992,6 +28485,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.56429423780669, 
+                    "lng": 13.566259620944535
+                }, 
                 "postcode": "12689", 
                 "venueCount": 0
             }, 
@@ -28174,8 +28671,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.578188611569075, 
+                    "lng": 13.495394893527793
+                }, 
                 "postcode": "13051", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -28352,6 +28853,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.55132615562847, 
+                    "lng": 13.50004286519296
+                }, 
                 "postcode": "13053", 
                 "venueCount": 0
             }, 
@@ -28418,6 +28923,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.54142325651056, 
+                    "lng": 13.495731703068747
+                }, 
                 "postcode": "13055", 
                 "venueCount": 0
             }, 
@@ -28600,8 +29109,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.57244560374729, 
+                    "lng": 13.540055838658306
+                }, 
                 "postcode": "13057", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -28714,6 +29227,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.58017592805872, 
+                    "lng": 13.52388898069251
+                }, 
                 "postcode": "13059", 
                 "venueCount": 0
             }, 
@@ -28808,6 +29325,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.55545236359427, 
+                    "lng": 13.447803705390978
+                }, 
                 "postcode": "13086", 
                 "venueCount": 0
             }, 
@@ -29098,6 +29619,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.55967962155107, 
+                    "lng": 13.47010049700214
+                }, 
                 "postcode": "13088", 
                 "venueCount": 0
             }, 
@@ -29220,6 +29745,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.569986720632976, 
+                    "lng": 13.442044262240664
+                }, 
                 "postcode": "13089", 
                 "venueCount": 0
             }, 
@@ -29878,8 +30407,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.631644056807595, 
+                    "lng": 13.484852754895929
+                }, 
                 "postcode": "13125", 
-                "venueCount": 0
+                "venueCount": 6
             }, 
             "type": "Feature"
         }, 
@@ -30084,6 +30617,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.6163012998409, 
+                    "lng": 13.433590342762717
+                }, 
                 "postcode": "13127", 
                 "venueCount": 0
             }, 
@@ -30266,6 +30803,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.596562868265735, 
+                    "lng": 13.457975353527793
+                }, 
                 "postcode": "13129", 
                 "venueCount": 0
             }, 
@@ -30436,8 +30977,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.58228113620453, 
+                    "lng": 13.39987570771321
+                }, 
                 "postcode": "13156", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -30906,8 +31451,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.589186218922805, 
+                    "lng": 13.382664740170457
+                }, 
                 "postcode": "13158", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -32848,8 +33397,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.62585052399031, 
+                    "lng": 13.409946312987739
+                }, 
                 "postcode": "13159", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -33050,6 +33603,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.57059302057897, 
+                    "lng": 13.409407417722212
+                }, 
                 "postcode": "13187", 
                 "venueCount": 0
             }, 
@@ -33172,6 +33729,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.56727521254116, 
+                    "lng": 13.419680108721312
+                }, 
                 "postcode": "13189", 
                 "venueCount": 0
             }, 
@@ -33350,6 +33911,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.547368364314345, 
+                    "lng": 13.36481383449989
+                }, 
                 "postcode": "13347", 
                 "venueCount": 0
             }, 
@@ -33440,8 +34005,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.557658621731086, 
+                    "lng": 13.348343847947234
+                }, 
                 "postcode": "13349", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -33570,6 +34139,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.55083774733865, 
+                    "lng": 13.333726313869827
+                }, 
                 "postcode": "13351", 
                 "venueCount": 0
             }, 
@@ -33732,6 +34305,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.542282181434054, 
+                    "lng": 13.350196300422482
+                }, 
                 "postcode": "13353", 
                 "venueCount": 0
             }, 
@@ -33986,6 +34563,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.54214744811273, 
+                    "lng": 13.389603016714112
+                }, 
                 "postcode": "13355", 
                 "venueCount": 0
             }, 
@@ -34196,6 +34777,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.54933883913883, 
+                    "lng": 13.382496335399981
+                }, 
                 "postcode": "13357", 
                 "venueCount": 0
             }, 
@@ -34374,6 +34959,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.56136378806772, 
+                    "lng": 13.381620630593499
+                }, 
                 "postcode": "13359", 
                 "venueCount": 0
             }, 
@@ -34628,6 +35217,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.57498869518743, 
+                    "lng": 13.320658103680808
+                }, 
                 "postcode": "13403", 
                 "venueCount": 0
             }, 
@@ -34994,8 +35587,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.559393313243234, 
+                    "lng": 13.29401646899134
+                }, 
                 "postcode": "13405", 
-                "venueCount": 0
+                "venueCount": 4
             }, 
             "type": "Feature"
         }, 
@@ -35320,6 +35917,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.57244560374728, 
+                    "lng": 13.352553967209161
+                }, 
                 "postcode": "13407", 
                 "venueCount": 0
             }, 
@@ -35578,6 +36179,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.56732573753666, 
+                    "lng": 13.373671925426983
+                }, 
                 "postcode": "13409", 
                 "venueCount": 0
             }, 
@@ -35800,6 +36405,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.602929017698685, 
+                    "lng": 13.344032685823024
+                }, 
                 "postcode": "13435", 
                 "venueCount": 0
             }, 
@@ -36142,6 +36751,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.59225140198311, 
+                    "lng": 13.32813527548999
+                }, 
                 "postcode": "13437", 
                 "venueCount": 0
             }, 
@@ -36376,8 +36989,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.59875228473739, 
+                    "lng": 13.356326234067847
+                }, 
                 "postcode": "13439", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -37194,8 +37811,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.643163755781494, 
+                    "lng": 13.286034082870728
+                }, 
                 "postcode": "13465", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -37648,8 +38269,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.61488659996691, 
+                    "lng": 13.3089708126097
+                }, 
                 "postcode": "13467", 
-                "venueCount": 0
+                "venueCount": 3
             }, 
             "type": "Feature"
         }, 
@@ -38990,8 +39615,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.611754050245935, 
+                    "lng": 13.338273242672708
+                }, 
                 "postcode": "13469", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -39604,6 +40233,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.6126298168346, 
+                    "lng": 13.247031538028242
+                }, 
                 "postcode": "13503", 
                 "venueCount": 0
             }, 
@@ -39910,8 +40543,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.58319058612352, 
+                    "lng": 13.243730804526894
+                }, 
                 "postcode": "13505", 
-                "venueCount": 0
+                "venueCount": 4
             }, 
             "type": "Feature"
         }, 
@@ -40312,8 +40949,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.575409736816596, 
+                    "lng": 13.27727703480592
+                }, 
                 "postcode": "13507", 
-                "venueCount": 0
+                "venueCount": 4
             }, 
             "type": "Feature"
         }, 
@@ -40642,6 +41283,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.59080301877879, 
+                    "lng": 13.299843274049845
+                }, 
                 "postcode": "13509", 
                 "venueCount": 0
             }, 
@@ -40904,8 +41549,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.530391965826496, 
+                    "lng": 13.180107482240665
+                }, 
                 "postcode": "13581", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -41018,6 +41667,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.54349478132605, 
+                    "lng": 13.18219570139458
+                }, 
                 "postcode": "13583", 
                 "venueCount": 0
             }, 
@@ -41176,8 +41829,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.546981006015514, 
+                    "lng": 13.206648074067846
+                }, 
                 "postcode": "13585", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -41854,6 +42511,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.57554447013793, 
+                    "lng": 13.178692882168656
+                }, 
                 "postcode": "13587", 
                 "venueCount": 0
             }, 
@@ -42120,8 +42781,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.55740599675359, 
+                    "lng": 13.171485157992239
+                }, 
                 "postcode": "13589", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -42518,8 +43183,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.53680864025494, 
+                    "lng": 13.144001499450386
+                }, 
                 "postcode": "13591", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -42792,6 +43461,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.51065353425134, 
+                    "lng": 13.164883690989539
+                }, 
                 "postcode": "13593", 
                 "venueCount": 0
             }, 
@@ -43082,8 +43755,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.51316294236115, 
+                    "lng": 13.199036178442284
+                }, 
                 "postcode": "13595", 
-                "venueCount": 0
+                "venueCount": 3
             }, 
             "type": "Feature"
         }, 
@@ -43344,8 +44021,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.52773098273018, 
+                    "lng": 13.220154136660106
+                }, 
                 "postcode": "13597", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -43694,6 +44375,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.547082056006516, 
+                    "lng": 13.234535904058845
+                }, 
                 "postcode": "13599", 
                 "venueCount": 0
             }, 
@@ -43888,6 +44573,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.54064853991291, 
+                    "lng": 13.301190512213662
+                }, 
                 "postcode": "13627", 
                 "venueCount": 0
             }, 
@@ -44258,8 +44947,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.54265269806772, 
+                    "lng": 13.268654710557495
+                }, 
                 "postcode": "13629", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -44464,6 +45157,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.520185916735585, 
+                    "lng": 13.263872015075947
+                }, 
                 "postcode": "14050", 
                 "venueCount": 0
             }, 
@@ -44674,8 +45371,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.51600918377429, 
+                    "lng": 13.25410453838828
+                }, 
                 "postcode": "14052", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -44836,6 +45537,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.5179122919381, 
+                    "lng": 13.234569585012942
+                }, 
                 "postcode": "14053", 
                 "venueCount": 0
             }, 
@@ -45178,8 +45883,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.501542193396254, 
+                    "lng": 13.244033933113752
+                }, 
                 "postcode": "14055", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -45344,6 +46053,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.50459053479139, 
+                    "lng": 13.286269849549395
+                }, 
                 "postcode": "14057", 
                 "venueCount": 0
             }, 
@@ -45490,8 +46203,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.52116273331524, 
+                    "lng": 13.289233773509793
+                }, 
                 "postcode": "14059", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -45860,8 +46577,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.47006512120003, 
+                    "lng": 13.14932309019746
+                }, 
                 "postcode": "14089", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -46858,8 +47579,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.41666020095701, 
+                    "lng": 13.144237266129053
+                }, 
                 "postcode": "14109", 
-                "venueCount": 0
+                "venueCount": 3
             }, 
             "type": "Feature"
         }, 
@@ -47240,8 +47965,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.4360281158985, 
+                    "lng": 13.190919068505291
+                }, 
                 "postcode": "14129", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -47538,8 +48267,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.43831858236115, 
+                    "lng": 13.238005042330673
+                }, 
                 "postcode": "14163", 
-                "venueCount": 0
+                "venueCount": 2
             }, 
             "type": "Feature"
         }, 
@@ -47856,6 +48589,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.417788592523166, 
+                    "lng": 13.247368347569196
+                }, 
                 "postcode": "14165", 
                 "venueCount": 0
             }, 
@@ -48110,6 +48847,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.4216453338463, 
+                    "lng": 13.27801801579602
+                }, 
                 "postcode": "14167", 
                 "venueCount": 0
             }, 
@@ -48384,8 +49125,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.444667890128926, 
+                    "lng": 13.266061277092149
+                }, 
                 "postcode": "14169", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -48854,6 +49599,10 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.469273562937204, 
+                    "lng": 13.238712342366675
+                }, 
                 "postcode": "14193", 
                 "venueCount": 0
             }, 
@@ -49192,8 +49941,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.45829279724864, 
+                    "lng": 13.283238563680808
+                }, 
                 "postcode": "14195", 
-                "venueCount": 0
+                "venueCount": 8
             }, 
             "type": "Feature"
         }, 
@@ -49282,8 +50035,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.473888179192826, 
+                    "lng": 13.309846517416183
+                }, 
                 "postcode": "14197", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }, 
@@ -49412,8 +50169,12 @@ var polygonsPostcodesGeoJSON = {
                 "type": "Polygon"
             }, 
             "properties": {
+                "centerCoordinates": {
+                    "lat": 52.47784597050696, 
+                    "lng": 13.294723769027343
+                }, 
                 "postcode": "14199", 
-                "venueCount": 0
+                "venueCount": 1
             }, 
             "type": "Feature"
         }

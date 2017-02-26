@@ -34,6 +34,13 @@ for feature in polygons_json["features"]:
     xCenter = x1 + ((x2 - x1) / 2)
     yCenter = y1 + ((y2 - y1) / 2)
 
+    # Add center coordinates to properties of feature
+    properties = feature["properties"]
+    properties["centerCoordinates"] = {}
+    centerCoordinates = properties["centerCoordinates"]
+    centerCoordinates["lat"] = yCenter
+    centerCoordinates["lng"] = xCenter
+
     # Find postcode at each center coordinate
     url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + str(yCenter) + "," + str(xCenter) + "&key=AIzaSyCAxzhF6MMwt8a9m8HJRoz8_HsfTpDqwRE"
     response = requests.get(url)
@@ -42,10 +49,10 @@ for feature in polygons_json["features"]:
     for address_component in address_components:
         if "postal_code" in address_component["types"]:
             # Add postcode to properties of feature
-            feature["properties"]["postcode"] = address_component["long_name"]
+            properties["postcode"] = address_component["long_name"]
 
     # Print debug info when no postcode available
-    if "postcode" not in feature["properties"]:
+    if "postcode" not in properties:
         for address_component in address_components:
             print address_component["types"]
 
