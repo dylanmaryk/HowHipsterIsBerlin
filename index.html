@@ -1,11 +1,26 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="map" />
+    <div class="container" align="center">
+      <h1>How Hipster is Berlin?</h1>
+      <h4>Berlin's postcode areas highlighted based on the approximate number of "hipster-y places". The darker the area, the more hipster!</h4>
+      <br />
+      <div id="map"></div>
+      <br />
+      <p>Postcode area TopoJSON from <a href="https://github.com/berlinermorgenpost/Berlin-Geodaten/blob/master/berlin_postleitzahlen.topojson">Berlinermorgenpost</a></p>
+      <p>TopoJSON converted to GeoJSON using <a href="http://jeffpaine.github.io/geojson-topojson">GeoJSON-TopoJSON</a></p>
+      <p>Postcode of each area found using <a href="https://developers.google.com/maps/documentation/geocoding/start">Google Maps Geocoding API</a></p>
+      <p>"Hipster-y places" data from <a href="https://developer.foursquare.com/docs/venues/search">Foursquare API</a></p>
+      <p>Leaflet map based on code from <a href="http://leafletjs.com/examples/choropleth">Interactive Choropleth Map</a></p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
     <script src="polygons-postcodes-geojson.js"></script>
     <script src="hipster.js"></script>
   </body>

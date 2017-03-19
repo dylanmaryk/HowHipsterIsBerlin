@@ -10,6 +10,18 @@ var geoJSON = L.geoJson(polygonsPostcodesGeoJSON, {
   onEachFeature: onEachFeature
 }).addTo(map);
 
+var info = L.control();
+info.onAdd = function(map) {
+    this._div = L.DomUtil.create("div", "info");
+    this.update();
+
+    return this._div;
+};
+info.update = function (properties) {
+    this._div.innerHTML = "<h4>Berlin Hipster Level</h4>" + (properties ? "<b>" + properties.postcode + "</b><br />" + properties.venueCount + " \"hipster-y places\"" : "Hover over a postcode");
+};
+info.addTo(map);
+
 function layerStyle(feature) {
     return {
         fillColor: postcodeAreaColor(feature.properties.venueCount),
@@ -38,8 +50,6 @@ function onEachFeature(feature, layer) {
         mouseout: resetHighlight,
         click: zoomToFeature
     });
-    layer.bindPopup("Postcode: " + feature.properties.postcode + ", " +
-                    "Number of hipster locations: " + feature.properties.venueCount);
 }
 
 function highlightFeature(e) {
@@ -55,10 +65,14 @@ function highlightFeature(e) {
     if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
         layer.bringToFront();
     }
+
+    info.update(layer.feature.properties);
 }
 
 function resetHighlight(e) {
     geoJSON.resetStyle(e.target);
+
+    info.update();
 }
 
 function zoomToFeature(e) {
