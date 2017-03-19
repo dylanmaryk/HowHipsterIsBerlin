@@ -1,6 +1,7 @@
 import json
 import requests
 import requests_cache
+from geopy.distance import vincenty
 
 # Cache responses from reverse geocoding requests
 requests_cache.install_cache("postcode_cache")
@@ -19,17 +20,17 @@ for feature in polygons_json["features"]:
     coordinates = feature["geometry"]["coordinates"][0]
 
     for coordinate in coordinates:
-        if coordinate[0] < x1:
-            x1 = coordinate[0]
+        if coordinate[0] < y1:
+            y1 = coordinate[0]
 
-        if coordinate[1] < y1:
-            y1 = coordinate[1]
+        if coordinate[1] < x1:
+            x1 = coordinate[1]
 
-        if coordinate[0] > x2:
-            x2 = coordinate[0]
+        if coordinate[0] > y2:
+            y2 = coordinate[0]
 
-        if coordinate[1] > y2:
-            y2 = coordinate[1]
+        if coordinate[1] > x2:
+            x2 = coordinate[1]
 
     xCenter = x1 + ((x2 - x1) / 2)
     yCenter = y1 + ((y2 - y1) / 2)
@@ -38,11 +39,23 @@ for feature in polygons_json["features"]:
     properties = feature["properties"]
     properties["centerCoordinates"] = {}
     centerCoordinates = properties["centerCoordinates"]
-    centerCoordinates["lat"] = yCenter
-    centerCoordinates["lng"] = xCenter
+    centerCoordinates["lat"] = xCenter
+    centerCoordinates["lng"] = yCenter
+
+    # Calculate distance from center coordinates to coordinates along polygon edge furthest from the center
+    furthestDistanceFromCenterToEdge = 0
+
+    for coordinate in coordinates:
+        distanceFromCenterToEdge = vincenty((xCenter, yCenter), (coordinate[1], coordinate[0])).meters
+
+        if distanceFromCenterToEdge > furthestDistanceFromCenterToEdge:
+            furthestDistanceFromCenterToEdge = distanceFromCenterToEdge
+
+    # Add "radius" to properties of feature
+    properties["approximateRadius"] = furthestDistanceFromCenterToEdge
 
     # Find postcode at each center coordinate
-    url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + str(yCenter) + "," + str(xCenter) + "&key=AIzaSyCAxzhF6MMwt8a9m8HJRoz8_HsfTpDqwRE"
+    url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + str(xCenter) + "," + str(yCenter) + "&key=AIzaSyCAxzhF6MMwt8a9m8HJRoz8_HsfTpDqwRE"
     response = requests.get(url)
     address_components = response.json()["results"][0]["address_components"]
 

@@ -17,13 +17,15 @@ for feature in polygons_json["features"]:
         lat = str(centerCoordinates["lat"])
         lng = str(centerCoordinates["lng"])
 
+        approximateRadius = str(properties["approximateRadius"])
+
         postcode = properties["postcode"]
 
         properties["venueCount"] = 0
         venueCount = properties["venueCount"]
 
         # Find cafes around center of postcode area
-        url = "https://api.foursquare.com/v2/venues/search?ll=" + lat + "," + lng + "&radius=5000&intent=browse&categoryId=4bf58dd8d48988d16d941735&limit=50&v=20170216&client_id=HXU4QYFFBGG0DKWYY32L5AFKVW01DXO13W0ZQCXJJVOUVJR5&client_secret=QEMIIQVFGLHPKNYI3KYJKIVZUPYCIJ1LNX2A1THUGPTW5VX2"
+        url = "https://api.foursquare.com/v2/venues/search?ll=" + lat + "," + lng + "&radius=" + approximateRadius + "&intent=browse&categoryId=4bf58dd8d48988d16d941735&limit=50&v=20170216&client_id=HXU4QYFFBGG0DKWYY32L5AFKVW01DXO13W0ZQCXJJVOUVJR5&client_secret=QEMIIQVFGLHPKNYI3KYJKIVZUPYCIJ1LNX2A1THUGPTW5VX2"
         response = requests.get(url)
         venues = response.json()["response"]["venues"]
 
