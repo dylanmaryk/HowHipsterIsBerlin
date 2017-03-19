@@ -39,7 +39,7 @@ function onEachFeature(feature, layer) {
         click: zoomToFeature
     });
     layer.bindPopup("Postcode: " + feature.properties.postcode + ", " +
-                    "Number of cafes: " + feature.properties.venueCount);
+                    "Number of hipster locations: " + feature.properties.venueCount);
 }
 
 function highlightFeature(e) {
