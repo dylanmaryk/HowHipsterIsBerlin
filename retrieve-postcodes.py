@@ -3,6 +3,8 @@ import requests
 import requests_cache
 from geopy.distance import vincenty
 
+googleMapsAPIKey = "<YOUR GOOGLE MAPS API KEY>"
+
 # Cache responses from reverse geocoding requests
 requests_cache.install_cache("postcode_cache")
 
@@ -55,7 +57,7 @@ for feature in polygons_json["features"]:
     properties["approximateRadius"] = furthestDistanceFromCenterToEdge
 
     # Find postcode at each center coordinate
-    url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + str(xCenter) + "," + str(yCenter) + "&key=AIzaSyCAxzhF6MMwt8a9m8HJRoz8_HsfTpDqwRE"
+    url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + str(xCenter) + "," + str(yCenter) + "&key=" + googleMapsAPIKey
     response = requests.get(url)
     address_components = response.json()["results"][0]["address_components"]
 

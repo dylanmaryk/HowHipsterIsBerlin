@@ -2,6 +2,9 @@ import json
 import requests
 import requests_cache
 
+foursquareClientID = "<YOUR FOURSQUARE CLIENT ID>"
+foursquareClientSecret = "<YOUR FOURSQUARE CLIENT SECRET>"
+
 # Cache responses from Foursquare requests
 requests_cache.install_cache("hipster_data_cache")
 
@@ -57,7 +60,7 @@ for feature in polygons_json["features"]:
                        "4bf58dd8d48988d11f941735"] # Nightclubs
 
         for categoryId in categoryIds:
-            url = "https://api.foursquare.com/v2/venues/search?ll=" + lat + "," + lng + "&radius=" + approximateRadius + "&intent=browse&categoryId=" + categoryId + "&limit=50&v=20170216&client_id=HXU4QYFFBGG0DKWYY32L5AFKVW01DXO13W0ZQCXJJVOUVJR5&client_secret=QEMIIQVFGLHPKNYI3KYJKIVZUPYCIJ1LNX2A1THUGPTW5VX2"
+            url = "https://api.foursquare.com/v2/venues/search?ll=" + lat + "," + lng + "&radius=" + approximateRadius + "&intent=browse&categoryId=" + categoryId + "&limit=50&v=20170216&client_id=&client_secret="
             response = requests.get(url)
             venues = response.json()["response"]["venues"]
 
